@@ -1,0 +1,21 @@
+---
+name: JavaScript
+
+on:
+  pull_request:
+    paths:
+      - 'config/webpack.config.js'
+      - 'webpack/**'
+      - 'package.json'
+      - '.github/workflows/js_ci.yml'
+
+concurrency:
+  group: ${{ github.ref_name }}-${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: JavaScript
+    uses: theforeman/actions/.github/workflows/foreman_plugin_js.yml@v0
+    with:
+      plugin: foreman_google
