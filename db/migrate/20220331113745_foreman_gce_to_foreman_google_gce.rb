@@ -1,5 +1,5 @@
 # rubocop:disable Metrics/MethodLength
-class ForemanGceToForemanGoogleGce < ActiveRecord::Migration[6.0]
+class ForemanGCEToForemanGoogleGCE < ActiveRecord::Migration[6.0]
   def up
     User.without_auditing do
       original_type = 'Foreman::Model::GCE'

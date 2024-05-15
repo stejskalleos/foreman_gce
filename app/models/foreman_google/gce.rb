@@ -1,5 +1,3 @@
-require 'foreman_google/google_compute_adapter'
-
 # rubocop:disable Rails/InverseOf, Metrics/ClassLength
 module ForemanGoogle
   class GCE < ::ComputeResource
