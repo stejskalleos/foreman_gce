@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/theforeman/foreman_google'
   s.summary     = 'Google Compute Engine plugin for the Foreman'
   s.description = 'Google Compute Engine plugin for the Foreman'
-  s.required_ruby_version = '>= 2.5'
+  s.required_ruby_version = '>= 2.7', '< 4'
 
   s.files = Dir['{app,config,db,lib,locale,webpack}/**/*'] + ['LICENSE', 'Rakefile', 'README.md', 'package.json']
   s.test_files = Dir['test/**/*'] + Dir['webpack/**/__tests__/*.js']
