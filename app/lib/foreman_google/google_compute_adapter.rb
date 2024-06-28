@@ -91,9 +91,9 @@ module ForemanGoogle
       instance = instance(zone, instance_identity)
       instance.disks.each do |disk|
         manage_instance :set_disk_auto_delete, zone: zone,
-                        device_name: disk.device_name,
-                        instance: instance_identity,
-                        auto_delete: true
+          device_name: disk.device_name,
+          instance: instance_identity,
+          auto_delete: true
       end
     end
 
