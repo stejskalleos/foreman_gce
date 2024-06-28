@@ -10,7 +10,7 @@ class ForemanGceToForemanGoogleGce < ActiveRecord::Migration[6.0]
       # mechanism failed to locate the subclass: 'Foreman::Model::GCE'
       ComputeResource.unscoped.where(type: original_type).update_all(type: new_type)
 
-      ComputeResource.unscoped.where(type: new_type).each do |cr|
+      ComputeResource.unscoped.where(type: new_type).find_each do |cr|
         unless cr.attrs[:key_path]
           say("Compute resource [#{cr.name}] is missing path to JSON key file, can't load the data. Please update the resource manually.")
           next
