@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'google-apis-compute_v1', '~> 0.14'
   s.add_dependency 'google-cloud-compute', '~> 0.2'
   s.add_development_dependency 'rdoc'
+  s.add_development_dependency 'theforeman-rubocop', '~> 0.1.1'
 end
