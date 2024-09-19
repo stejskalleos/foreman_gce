@@ -4,23 +4,20 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: foreman_google 1.0.0\n"
+"Project-Id-Version: foreman_google 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-01 12:51+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022\n"
-"Language-Team: Georgian (https://www.transifex.com/foreman/teams/114/ka/)\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023\n"
+"Language-Team: Georgian (https://app.transifex.com/foreman/teams/114/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ka\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-
-msgid "Action with sub plans"
-msgstr "ქმედება ქვე-გეგმებით"
 
 msgid "Actions"
 msgstr "ქმედებები"
@@ -29,13 +26,13 @@ msgid "Associate Ephemeral External IP"
 msgstr "ეფემერული გარე IP-ის ასოცირება"
 
 msgid "Certificate path, for GCE only"
-msgstr ""
+msgstr "სერტიფიკატის ბილიკი მხოლოდ GCE-სთვის"
 
 msgid "Deprecated, email is automatically loaded from the JSON file. For GCE only"
-msgstr ""
+msgstr "მოძველებულია. ელფოსტა ავტომატურად ჩაიტვირთება JSON ფაილიდან. მხოლოდ GCE-სთვის"
 
 msgid "Deprecated, project is automatically loaded from the JSON file. For GCE only"
-msgstr ""
+msgstr "მოძველებულია. პროექტი ავტომატურად ჩაიტვირთება JSON ფაილიდან. მხოლოდ GCE-სთვის"
 
 msgid "Does this image support user data input (e.g. via cloud-init)?"
 msgstr "აქვს თუ არა ამ ასლს მომხმარებლის მონაცემების ჩაწოდების მხარდაჭერა (მაგ. cloudinit)?"
@@ -45,12 +42,6 @@ msgstr "Google Compute Engine -ის დამატება Foreman-ისთ
 
 msgid "Image"
 msgstr "ასლი"
-
-msgid "Import Puppet classes"
-msgstr "Puppet-ის კლასების შემოტანა"
-
-msgid "Import facts"
-msgstr "ფაქტების შემოტანა"
 
 msgid "JSON key"
 msgstr "JSON გასაღები"
@@ -76,14 +67,8 @@ msgstr "ქსელი"
 msgid "Please select an image"
 msgstr "აირჩიეთ ასლი"
 
-msgid "Preupgrade job"
-msgstr "განახლებისწინა დავალება"
-
 msgid "Properties"
 msgstr "პარამეტრები"
-
-msgid "Remote action:"
-msgstr "დაშორებული ქმედება:"
 
 msgid "Size (GB)"
 msgstr "ზომა (გბ)"
@@ -92,10 +77,10 @@ msgid "State"
 msgstr "State"
 
 msgid "The email parameter is deprecated, value is automatically loaded from the JSON file"
-msgstr ""
+msgstr "ელფოსტის პარამეტრი მოძველებულია. მნიშვნელობა ავტომატურად ჩაიტვირთება JSON ფაილიდან"
 
 msgid "The project parameter is deprecated, value is automatically loaded from the JSON file"
-msgstr ""
+msgstr "პროექტის პარამეტრი მოძველებულია. მნიშვნელობა ავტომატურად ჩაიტვირთება JSON ფაილიდან"
 
 msgid "The user that is used to ssh into the instance, normally cloud-user, ec2-user, ubuntu, etc. Note: Google engine doesn't support SSH for the root user."
 msgstr "მომხმარებელი, რომელიც ssh-ით შესასვლელად გამოყენება. ჩვეულებრივ გამოიყენება cloud-user, ec2-user, ubuntu და ა.შ. დაიმახსოვრეთ: Google Engine-ს root მომხმარებლის SSH გასაღებების მხარდაჭერა არ გააჩნია."
@@ -107,7 +92,7 @@ msgid "Zone"
 msgstr "ზონა"
 
 msgid "Zone, for GCE only"
-msgstr ""
+msgstr "ზონა, მხოლოდ GCE-სთვის"
 
 msgid "console is not available at this time because the instance is powered off"
 msgstr "კონსოლი ამჟამად მიუწვდომელია. გაშვებული ასლი გამორთულია"

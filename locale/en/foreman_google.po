@@ -1,22 +1,21 @@
-# foreman_google
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the foreman_google package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# This file is distributed under the same license as foreman_google.
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: foreman_google 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2014-08-20 08:54+0100\n"
-"Last-Translator: Foreman Team <foreman-dev@googlegroups.com>\n"
-"Language-Team: Foreman Team <foreman-dev@googlegroups.com>\n"
+"PO-Revision-Date: 2024-09-19 13:06+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-msgid "Action with sub plans"
-msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 msgid "Actions"
 msgstr ""
@@ -40,12 +39,6 @@ msgid "Google Compute Engine plugin for the Foreman."
 msgstr ""
 
 msgid "Image"
-msgstr ""
-
-msgid "Import Puppet classes"
-msgstr ""
-
-msgid "Import facts"
 msgstr ""
 
 msgid "JSON key"
@@ -72,13 +65,7 @@ msgstr ""
 msgid "Please select an image"
 msgstr ""
 
-msgid "Preupgrade job"
-msgstr ""
-
 msgid "Properties"
-msgstr ""
-
-msgid "Remote action:"
 msgstr ""
 
 msgid "Size (GB)"

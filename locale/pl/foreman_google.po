@@ -9,11 +9,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: foreman_google 1.0.0\n"
+"Project-Id-Version: foreman_google 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-01 12:51+0000\n"
 "Last-Translator: Michał Foryt <michal.foryt@gmail.com>, 2022\n"
-"Language-Team: Polish (https://www.transifex.com/foreman/teams/114/pl/)\n"
+"Language-Team: Polish (https://app.transifex.com/foreman/teams/114/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,9 +21,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12"
 " || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n"
 "%100>=12 && n%100<=14) ? 2 : 3);\n"
-
-msgid "Action with sub plans"
-msgstr ""
 
 msgid "Actions"
 msgstr "Akcja"
@@ -49,12 +46,6 @@ msgstr ""
 msgid "Image"
 msgstr "Obraz"
 
-msgid "Import Puppet classes"
-msgstr ""
-
-msgid "Import facts"
-msgstr ""
-
 msgid "JSON key"
 msgstr ""
 
@@ -79,14 +70,8 @@ msgstr "Sieć"
 msgid "Please select an image"
 msgstr "Proszę wybrać obraz"
 
-msgid "Preupgrade job"
-msgstr ""
-
 msgid "Properties"
 msgstr "Ustawienia"
-
-msgid "Remote action:"
-msgstr ""
 
 msgid "Size (GB)"
 msgstr "Rozmiar (GB)"
