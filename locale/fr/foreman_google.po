@@ -9,23 +9,22 @@
 # Bryan Kearney <bryan.kearney@gmail.com>, 2022
 # Claer <transiblu@claer.hammock.fr>, 2022
 # Amit Upadhye <aupadhye@redhat.com>, 2022
+# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: foreman_google 1.0.0\n"
+"Project-Id-Version: foreman_google 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-01 12:51+0000\n"
-"Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2022\n"
-"Language-Team: French (https://www.transifex.com/foreman/teams/114/fr/)\n"
+"Last-Translator: Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarde"
+"n.nl>, 2024\n"
+"Language-Team: French (https://app.transifex.com/foreman/teams/114/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 100000"
 "0 == 0 ? 1 : 2;\n"
-
-msgid "Action with sub plans"
-msgstr "Action avec sous-plans"
 
 msgid "Actions"
 msgstr "Actions"
@@ -34,13 +33,13 @@ msgid "Associate Ephemeral External IP"
 msgstr "Associer l’IP externe éphémère"
 
 msgid "Certificate path, for GCE only"
-msgstr ""
+msgstr "Chemin certificat pour GCE uniquement"
 
 msgid "Deprecated, email is automatically loaded from the JSON file. For GCE only"
-msgstr ""
+msgstr "Obsolète, l'e-mail est automatiquement chargé à partir du fichier JSON. Pour GCE uniquement"
 
 msgid "Deprecated, project is automatically loaded from the JSON file. For GCE only"
-msgstr ""
+msgstr "Obsolète, le projet est automatiquement chargé à partir du fichier JSON. Pour GCE uniquement"
 
 msgid "Does this image support user data input (e.g. via cloud-init)?"
 msgstr "Cette image prend-t-elle en charge l'entrée de paramètres utilisateur (p.e. via cloud-init) ?"
@@ -50,12 +49,6 @@ msgstr "Plugin Google Compute Engine pour le Foreman."
 
 msgid "Image"
 msgstr "Image"
-
-msgid "Import Puppet classes"
-msgstr "Importer des classes Puppet"
-
-msgid "Import facts"
-msgstr "Importer des faits"
 
 msgid "JSON key"
 msgstr "Clé JSON"
@@ -81,14 +74,8 @@ msgstr "Réseau"
 msgid "Please select an image"
 msgstr "Veuillez sélectionner une image"
 
-msgid "Preupgrade job"
-msgstr "Job de pré-mise à niveau"
-
 msgid "Properties"
 msgstr "Propriétés"
-
-msgid "Remote action:"
-msgstr "Action distante :"
 
 msgid "Size (GB)"
 msgstr "Taille (Go)"
@@ -97,10 +84,10 @@ msgid "State"
 msgstr "État"
 
 msgid "The email parameter is deprecated, value is automatically loaded from the JSON file"
-msgstr ""
+msgstr "Le paramètre email est obsolète, la valeur est automatiquement chargée à partir du fichier JSON"
 
 msgid "The project parameter is deprecated, value is automatically loaded from the JSON file"
-msgstr ""
+msgstr "Le paramètre du projet est obsolète, la valeur est automatiquement chargée à partir du fichier JSON"
 
 msgid "The user that is used to ssh into the instance, normally cloud-user, ec2-user, ubuntu, etc. Note: Google engine doesn't support SSH for the root user."
 msgstr "L'utilisateur qui est utilisé pour se connecter à l'instance via ssh, normalement cloud-user, ec2-user, ubuntu, etc. Remarque : le moteur Google ne prend pas en charge SSH pour l'utilisateur root."
@@ -112,7 +99,7 @@ msgid "Zone"
 msgstr "Zone"
 
 msgid "Zone, for GCE only"
-msgstr ""
+msgstr "Zone, pour GCE uniquement"
 
 msgid "console is not available at this time because the instance is powered off"
 msgstr "la console n'est pas disponible pour le moment car l'instance est éteinte"

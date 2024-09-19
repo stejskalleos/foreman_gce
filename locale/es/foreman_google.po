@@ -15,20 +15,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: foreman_google 1.0.0\n"
+"Project-Id-Version: foreman_google 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-01 12:51+0000\n"
 "Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/foreman/teams/114/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/foreman/teams/114/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 :"
 " 2;\n"
-
-msgid "Action with sub plans"
-msgstr "Acción con subplanes"
 
 msgid "Actions"
 msgstr "Acciones"
@@ -54,12 +51,6 @@ msgstr ""
 msgid "Image"
 msgstr "Imagen"
 
-msgid "Import Puppet classes"
-msgstr "Importar clases Puppet"
-
-msgid "Import facts"
-msgstr "Importar datos"
-
 msgid "JSON key"
 msgstr ""
 
@@ -84,14 +75,8 @@ msgstr "Red"
 msgid "Please select an image"
 msgstr "Seleccione una imagen"
 
-msgid "Preupgrade job"
-msgstr "Trabajo previo a la actualización"
-
 msgid "Properties"
 msgstr "Propiedades"
-
-msgid "Remote action:"
-msgstr "Acción remota:"
 
 msgid "Size (GB)"
 msgstr "Tamaño (GB)"

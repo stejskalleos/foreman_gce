@@ -7,22 +7,21 @@
 # 0868a4d1af5275b3f70b0a6dac4c99a4, 2022
 # Bryan Kearney <bryan.kearney@gmail.com>, 2022
 # Amit Upadhye <aupadhye@redhat.com>, 2022
+# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: foreman_google 1.0.0\n"
+"Project-Id-Version: foreman_google 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-01 12:51+0000\n"
-"Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/foreman/teams/114/ja/)\n"
+"Last-Translator: Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarde"
+"n.nl>, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/foreman/teams/114/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-msgid "Action with sub plans"
-msgstr "サブプランによるアクション"
 
 msgid "Actions"
 msgstr "アクション"
@@ -31,13 +30,13 @@ msgid "Associate Ephemeral External IP"
 msgstr "一時外部 ID の関連付け"
 
 msgid "Certificate path, for GCE only"
-msgstr ""
+msgstr "証明書パス、GCE 専用"
 
 msgid "Deprecated, email is automatically loaded from the JSON file. For GCE only"
-msgstr ""
+msgstr "非推奨。メールが JSON ファイルから自動的にロードされます。GCE 専用"
 
 msgid "Deprecated, project is automatically loaded from the JSON file. For GCE only"
-msgstr ""
+msgstr "非推奨。プロジェクトが JSON ファイルから自動的にロードされます。GCE 専用"
 
 msgid "Does this image support user data input (e.g. via cloud-init)?"
 msgstr "このイメージはユーザーのデータ入力に対応しますか (例: cloud-init 経由)?"
@@ -47,12 +46,6 @@ msgstr "Foreman 用の Google Compute Engine プラグイン。"
 
 msgid "Image"
 msgstr "イメージ"
-
-msgid "Import Puppet classes"
-msgstr "Puppet クラスのインポート"
-
-msgid "Import facts"
-msgstr "ファクトのインポート"
 
 msgid "JSON key"
 msgstr "JSON キー"
@@ -78,14 +71,8 @@ msgstr "ネットワーク"
 msgid "Please select an image"
 msgstr "イメージを選択してください"
 
-msgid "Preupgrade job"
-msgstr "アップグレード前のジョブ"
-
 msgid "Properties"
 msgstr "プロパティー"
-
-msgid "Remote action:"
-msgstr "リモートアクション:"
 
 msgid "Size (GB)"
 msgstr "サイズ (GB)"
@@ -94,10 +81,10 @@ msgid "State"
 msgstr "状態"
 
 msgid "The email parameter is deprecated, value is automatically loaded from the JSON file"
-msgstr ""
+msgstr "メールパラメーターは非推奨です。値が JSON ファイルから自動的にロードされます"
 
 msgid "The project parameter is deprecated, value is automatically loaded from the JSON file"
-msgstr ""
+msgstr "プロジェクトパラメーターは非推奨です。値が JSON ファイルから自動的にロードされます"
 
 msgid "The user that is used to ssh into the instance, normally cloud-user, ec2-user, ubuntu, etc. Note: Google engine doesn't support SSH for the root user."
 msgstr "インスタンスへの ssh 接続に使用するユーザーは通常、cloud-user、ec2-user、ubuntu などです。注: Google エンジンは、root ユーザーの ssh をサポートしません。"
@@ -109,7 +96,7 @@ msgid "Zone"
 msgstr "ゾーン"
 
 msgid "Zone, for GCE only"
-msgstr ""
+msgstr "ゾーン、GCE 専用"
 
 msgid "console is not available at this time because the instance is powered off"
 msgstr "インスタンスの電源がオフであるため、現時点ではコンソールは使用できません"

@@ -8,23 +8,22 @@
 # Bryan Kearney <bryan.kearney@gmail.com>, 2022
 # tim123, 2022
 # Amit Upadhye <aupadhye@redhat.com>, 2022
+# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: foreman_google 1.0.0\n"
+"Project-Id-Version: foreman_google 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-01 12:51+0000\n"
-"Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2022\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/foreman/teams/114/zh"
+"Last-Translator: Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarde"
+"n.nl>, 2024\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/foreman/teams/114/zh"
 "_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-msgid "Action with sub plans"
-msgstr "有子计划的操作"
 
 msgid "Actions"
 msgstr "操作"
@@ -33,13 +32,13 @@ msgid "Associate Ephemeral External IP"
 msgstr "关联临时外部 IP"
 
 msgid "Certificate path, for GCE only"
-msgstr ""
+msgstr "证书路径，仅限 GCE"
 
 msgid "Deprecated, email is automatically loaded from the JSON file. For GCE only"
-msgstr ""
+msgstr "弃用，电子邮件从 JSON 文件中自动加载。仅限 GCE"
 
 msgid "Deprecated, project is automatically loaded from the JSON file. For GCE only"
-msgstr ""
+msgstr "弃用，项目从 JSON 文件中自动加载。仅限 GCE"
 
 msgid "Does this image support user data input (e.g. via cloud-init)?"
 msgstr "这个镜像是否支持用户数据输入（例如：通过 cloud-init）？"
@@ -49,12 +48,6 @@ msgstr "Foreman 的 Google Compute Engine 插件。"
 
 msgid "Image"
 msgstr "镜像"
-
-msgid "Import Puppet classes"
-msgstr "导入 Puppet 类"
-
-msgid "Import facts"
-msgstr "导入事实"
 
 msgid "JSON key"
 msgstr "JSON 键"
@@ -80,14 +73,8 @@ msgstr "网络"
 msgid "Please select an image"
 msgstr "请选择一个镜像"
 
-msgid "Preupgrade job"
-msgstr "升级前的作业"
-
 msgid "Properties"
 msgstr "属性"
-
-msgid "Remote action:"
-msgstr "远程操作："
 
 msgid "Size (GB)"
 msgstr "大小 (GB)"
@@ -96,10 +83,10 @@ msgid "State"
 msgstr "状态"
 
 msgid "The email parameter is deprecated, value is automatically loaded from the JSON file"
-msgstr ""
+msgstr "email 参数已弃用，值会自动从 JSON 文件加载"
 
 msgid "The project parameter is deprecated, value is automatically loaded from the JSON file"
-msgstr ""
+msgstr "project 参数已弃用，值会自动从 JSON 文件加载"
 
 msgid "The user that is used to ssh into the instance, normally cloud-user, ec2-user, ubuntu, etc. Note: Google engine doesn't support SSH for the root user."
 msgstr "用于 ssh 到实例的用户，通常为 cloud-user、ec2-user、ubuntu 等：Google 引擎不支持 root 用户的 SSH。"
@@ -111,7 +98,7 @@ msgid "Zone"
 msgstr "区"
 
 msgid "Zone, for GCE only"
-msgstr ""
+msgstr "Zone，仅限 GCE"
 
 msgid "console is not available at this time because the instance is powered off"
 msgstr "控制台目前不可用，因为实例已关闭"

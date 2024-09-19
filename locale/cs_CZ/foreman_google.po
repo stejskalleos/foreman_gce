@@ -9,11 +9,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: foreman_google 1.0.0\n"
+"Project-Id-Version: foreman_google 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-01 12:51+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2022\n"
-"Language-Team: Czech (Czech Republic) (https://www.transifex.com/foreman/teams"
+"Language-Team: Czech (Czech Republic) (https://app.transifex.com/foreman/teams"
 "/114/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,9 +21,6 @@ msgstr ""
 "Language: cs_CZ\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= "
 "4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-
-msgid "Action with sub plans"
-msgstr "Akce s dílčími plány"
 
 msgid "Actions"
 msgstr "Akce"
@@ -49,12 +46,6 @@ msgstr ""
 msgid "Image"
 msgstr "Obraz"
 
-msgid "Import Puppet classes"
-msgstr "Importovat Puppet třídy"
-
-msgid "Import facts"
-msgstr "Importovat fakta"
-
 msgid "JSON key"
 msgstr ""
 
@@ -79,14 +70,8 @@ msgstr "Síť"
 msgid "Please select an image"
 msgstr "Vyberte obraz"
 
-msgid "Preupgrade job"
-msgstr ""
-
 msgid "Properties"
 msgstr "Vlastnosti"
-
-msgid "Remote action:"
-msgstr "Akce na protějšku:"
 
 msgid "Size (GB)"
 msgstr "Velikost (GB)"

@@ -10,20 +10,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: foreman_google 1.0.0\n"
+"Project-Id-Version: foreman_google 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-01 12:51+0000\n"
 "Last-Translator: johnny.westerlund <johnny.westerlund@gmail.com>, 2022\n"
-"Language-Team: Swedish (Sweden) (https://www.transifex.com/foreman/teams/114/s"
+"Language-Team: Swedish (Sweden) (https://app.transifex.com/foreman/teams/114/s"
 "v_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sv_SE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-msgid "Action with sub plans"
-msgstr ""
 
 msgid "Actions"
 msgstr "Åtgärder"
@@ -49,12 +46,6 @@ msgstr ""
 msgid "Image"
 msgstr "Avbildning"
 
-msgid "Import Puppet classes"
-msgstr ""
-
-msgid "Import facts"
-msgstr ""
-
 msgid "JSON key"
 msgstr ""
 
@@ -79,14 +70,8 @@ msgstr "Nätverk"
 msgid "Please select an image"
 msgstr "Vänligen välj en avbildning"
 
-msgid "Preupgrade job"
-msgstr ""
-
 msgid "Properties"
 msgstr "Egenskaper"
-
-msgid "Remote action:"
-msgstr ""
 
 msgid "Size (GB)"
 msgstr "Storlek (GB)"

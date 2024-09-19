@@ -5,26 +5,23 @@
 #
 # Translators:
 # Andrea Perotti, 2022
-# Giuseppe Pignataro <rogepix@gmail.com>, 2022
+# Giuseppe Pignataro (Fastbyte01) <rogepix@gmail.com>, 2022
 # Bryan Kearney <bryan.kearney@gmail.com>, 2022
 # 0868a4d1af5275b3f70b0a6dac4c99a4, 2022
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: foreman_google 1.0.0\n"
+"Project-Id-Version: foreman_google 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-01 12:51+0000\n"
 "Last-Translator: 0868a4d1af5275b3f70b0a6dac4c99a4, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/foreman/teams/114/it/)\n"
+"Language-Team: Italian (https://app.transifex.com/foreman/teams/114/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 :"
 " 2;\n"
-
-msgid "Action with sub plans"
-msgstr ""
 
 msgid "Actions"
 msgstr "Azioni"
@@ -50,12 +47,6 @@ msgstr ""
 msgid "Image"
 msgstr "Immagine"
 
-msgid "Import Puppet classes"
-msgstr "Importa classi Puppet"
-
-msgid "Import facts"
-msgstr "Importa gli eventi"
-
 msgid "JSON key"
 msgstr ""
 
@@ -80,14 +71,8 @@ msgstr "Rete"
 msgid "Please select an image"
 msgstr "Selezionare una immagine"
 
-msgid "Preupgrade job"
-msgstr ""
-
 msgid "Properties"
 msgstr "Proprietà"
-
-msgid "Remote action:"
-msgstr "Azione remota:"
 
 msgid "Size (GB)"
 msgstr "Dimensione (GB)"

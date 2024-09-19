@@ -5,14 +5,14 @@
 #
 # Translators:
 # 0868a4d1af5275b3f70b0a6dac4c99a4, 2022
-# Andi Chandler <andi@gowling.com>, 2023
+# Andi Chandler <andi@gowling.com>, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: foreman_google 1.0.0\n"
+"Project-Id-Version: foreman_google 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-01 12:51+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>, 2023\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>, 2024\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/foreman/tea"
 "ms/114/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -21,9 +21,6 @@ msgstr ""
 "Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Action with sub plans"
-msgstr "Action with sub plans"
-
 msgid "Actions"
 msgstr "Actions"
 
@@ -31,13 +28,13 @@ msgid "Associate Ephemeral External IP"
 msgstr "Associate Ephemeral External IP"
 
 msgid "Certificate path, for GCE only"
-msgstr ""
+msgstr "Certificate path, for GCE only"
 
 msgid "Deprecated, email is automatically loaded from the JSON file. For GCE only"
-msgstr ""
+msgstr "Deprecated, email is automatically loaded from the JSON file. For GCE only"
 
 msgid "Deprecated, project is automatically loaded from the JSON file. For GCE only"
-msgstr ""
+msgstr "Deprecated, project is automatically loaded from the JSON file. For GCE only"
 
 msgid "Does this image support user data input (e.g. via cloud-init)?"
 msgstr "Does this image support user data input (e.g. via cloud-init)?"
@@ -47,12 +44,6 @@ msgstr "Google Compute Engine plugin for the Foreman."
 
 msgid "Image"
 msgstr "Image"
-
-msgid "Import Puppet classes"
-msgstr "Import Puppet classes"
-
-msgid "Import facts"
-msgstr "Import facts"
 
 msgid "JSON key"
 msgstr "JSON key"
@@ -78,14 +69,8 @@ msgstr "Network"
 msgid "Please select an image"
 msgstr "Please select an image"
 
-msgid "Preupgrade job"
-msgstr "Preupgrade job"
-
 msgid "Properties"
 msgstr "Properties"
-
-msgid "Remote action:"
-msgstr "Remote action:"
 
 msgid "Size (GB)"
 msgstr "Size (GB)"
@@ -94,10 +79,10 @@ msgid "State"
 msgstr "State"
 
 msgid "The email parameter is deprecated, value is automatically loaded from the JSON file"
-msgstr ""
+msgstr "The email parameter is deprecated, value is automatically loaded from the JSON file"
 
 msgid "The project parameter is deprecated, value is automatically loaded from the JSON file"
-msgstr ""
+msgstr "The project parameter is deprecated, value is automatically loaded from the JSON file"
 
 msgid "The user that is used to ssh into the instance, normally cloud-user, ec2-user, ubuntu, etc. Note: Google engine doesn't support SSH for the root user."
 msgstr "The user that is used to ssh into the instance, normally cloud-user, ec2-user, ubuntu, etc. Note: Google engine doesn't support SSH for the root user."
@@ -109,7 +94,7 @@ msgid "Zone"
 msgstr "Zone"
 
 msgid "Zone, for GCE only"
-msgstr ""
+msgstr "Zone, for GCE only"
 
 msgid "console is not available at this time because the instance is powered off"
 msgstr "console is not available at this time because the instance is powered off"

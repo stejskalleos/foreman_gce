@@ -3,11 +3,11 @@
   "locale_data": {
     "foreman_google": {
       "": {
-        "Project-Id-Version": "foreman_google 1.0.0",
+        "Project-Id-Version": "foreman_google 3.0.0",
         "Report-Msgid-Bugs-To": "",
         "PO-Revision-Date": "2022-08-01 12:51+0000",
         "Last-Translator": "Pavel Borecki <pavel.borecki@gmail.com>, 2022",
-        "Language-Team": "Czech (Czech Republic) (https://www.transifex.com/foreman/teams/114/cs_CZ/)",
+        "Language-Team": "Czech (Czech Republic) (https://app.transifex.com/foreman/teams/114/cs_CZ/)",
         "MIME-Version": "1.0",
         "Content-Type": "text/plain; charset=UTF-8",
         "Content-Transfer-Encoding": "8bit",
@@ -17,17 +17,62 @@
         "domain": "foreman_google",
         "plural_forms": "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;"
       },
+      "Actions": [
+        "Akce"
+      ],
+      "Associate Ephemeral External IP": [
+        ""
+      ],
       "Certificate path, for GCE only": [
         ""
       ],
-      "Zone, for GCE only": [
+      "Deprecated, email is automatically loaded from the JSON file. For GCE only": [
         ""
       ],
       "Deprecated, project is automatically loaded from the JSON file. For GCE only": [
         ""
       ],
-      "Deprecated, email is automatically loaded from the JSON file. For GCE only": [
+      "Does this image support user data input (e.g. via cloud-init)?": [
+        "Podporuje tento obraz zadání uživatelských dat (např. prostřednictvím cloud-init)?"
+      ],
+      "Google Compute Engine plugin for the Foreman.": [
         ""
+      ],
+      "Image": [
+        "Obraz"
+      ],
+      "JSON key": [
+        ""
+      ],
+      "Load Zones": [
+        "Načíst zóny"
+      ],
+      "Machine Type": [
+        "Typ stroje"
+      ],
+      "Machine type": [
+        "Typ stroje"
+      ],
+      "Missing an image for operating system!": [
+        ""
+      ],
+      "Name": [
+        "Název"
+      ],
+      "Network": [
+        "Síť"
+      ],
+      "Please select an image": [
+        "Vyberte obraz"
+      ],
+      "Properties": [
+        "Vlastnosti"
+      ],
+      "Size (GB)": [
+        "Velikost (GB)"
+      ],
+      "State": [
+        "Stav"
       ],
       "The email parameter is deprecated, value is automatically loaded from the JSON file": [
         ""
@@ -35,79 +80,19 @@
       "The project parameter is deprecated, value is automatically loaded from the JSON file": [
         ""
       ],
-      "console is not available at this time because the instance is powered off": [
+      "The user that is used to ssh into the instance, normally cloud-user, ec2-user, ubuntu, etc. Note: Google engine doesn't support SSH for the root user.": [
         ""
-      ],
-      "Missing an image for operating system!": [
-        ""
-      ],
-      "JSON key": [
-        ""
-      ],
-      "Zone": [
-        "Zóna"
-      ],
-      "Load Zones": [
-        "Načíst zóny"
-      ],
-      "Machine type": [
-        "Typ stroje"
-      ],
-      "Please select an image": [
-        "Vyberte obraz"
-      ],
-      "Image": [
-        "Obraz"
-      ],
-      "Network": [
-        "Síť"
-      ],
-      "Associate Ephemeral External IP": [
-        ""
-      ],
-      "Size (GB)": [
-        "Velikost (GB)"
-      ],
-      "Name": [
-        "Název"
       ],
       "Type": [
         "Typ"
       ],
-      "State": [
-        "Stav"
+      "Zone": [
+        "Zóna"
       ],
-      "Actions": [
-        "Akce"
-      ],
-      "Properties": [
-        "Vlastnosti"
-      ],
-      "Machine Type": [
-        "Typ stroje"
-      ],
-      "The user that is used to ssh into the instance, normally cloud-user, ec2-user, ubuntu, etc. Note: Google engine doesn't support SSH for the root user.": [
+      "Zone, for GCE only": [
         ""
       ],
-      "Does this image support user data input (e.g. via cloud-init)?": [
-        "Podporuje tento obraz zadání uživatelských dat (např. prostřednictvím cloud-init)?"
-      ],
-      "Preupgrade job": [
-        ""
-      ],
-      "Action with sub plans": [
-        "Akce s dílčími plány"
-      ],
-      "Import facts": [
-        "Importovat fakta"
-      ],
-      "Import Puppet classes": [
-        "Importovat Puppet třídy"
-      ],
-      "Remote action:": [
-        "Akce na protějšku:"
-      ],
-      "Google Compute Engine plugin for the Foreman.": [
+      "console is not available at this time because the instance is powered off": [
         ""
       ]
     }

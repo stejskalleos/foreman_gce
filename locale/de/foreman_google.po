@@ -10,7 +10,7 @@
 # Crited <Alexander.Stoll@netways.de>, 2022
 # simon11 <transifex@stieger.co>, 2022
 # Martin Zimmermann <martin.zimmermann@gmx.com>, 2022
-# Patrick Dolinic, 2022
+# pdolinic, 2022
 # Bryan Kearney <bryan.kearney@gmail.com>, 2022
 # Wiederoder <stefanwiederoder@googlemail.com>, 2022
 # Ettore Atalan <atalanttore@googlemail.com>, 2022
@@ -18,19 +18,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: foreman_google 1.0.0\n"
+"Project-Id-Version: foreman_google 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-01 12:51+0000\n"
 "Last-Translator: Lukas Kallies <github.com@luke-web.de>, 2022\n"
-"Language-Team: German (https://www.transifex.com/foreman/teams/114/de/)\n"
+"Language-Team: German (https://app.transifex.com/foreman/teams/114/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-msgid "Action with sub plans"
-msgstr "Aktion mit Unterplänen"
 
 msgid "Actions"
 msgstr "Aktionen"
@@ -56,12 +53,6 @@ msgstr "Google Compute Engine-Erweiterung für the Foreman."
 msgid "Image"
 msgstr "Image"
 
-msgid "Import Puppet classes"
-msgstr "Puppet-Klassen importieren"
-
-msgid "Import facts"
-msgstr "Fakten importieren"
-
 msgid "JSON key"
 msgstr "JSON-Schlüssel"
 
@@ -86,14 +77,8 @@ msgstr "Netzwerk"
 msgid "Please select an image"
 msgstr "bitte ein Abbild auswählen"
 
-msgid "Preupgrade job"
-msgstr "Pre-Upgrade-Job"
-
 msgid "Properties"
 msgstr "Eigenschaften"
-
-msgid "Remote action:"
-msgstr "Entfernte Aktion:"
 
 msgid "Size (GB)"
 msgstr "Grösse (GB)"
