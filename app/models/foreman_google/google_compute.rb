@@ -1,5 +1,3 @@
-require 'google/apis/compute_v1'
-
 module ForemanGoogle
   class GoogleCompute
     attr_reader :identity, :name, :hostname, :creation_timestamp, :machine_type, :network_interfaces, :volumes,
