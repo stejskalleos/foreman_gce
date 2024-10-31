@@ -24,8 +24,6 @@ module ForemanGoogle
 
     # Include concerns in this config.to_prepare block
     config.to_prepare do
-      require 'google/cloud/compute/v1'
-
       ::Host::Managed.include ForemanGoogle::HostManagedExtensions
       ::Api::V2::ComputeResourcesController.include ForemanGoogle::Api::V2::ComputeResourcesExtensions
       ::Api::V2::ComputeResourcesController.include ForemanGoogle::Api::V2::ApipieExtensions

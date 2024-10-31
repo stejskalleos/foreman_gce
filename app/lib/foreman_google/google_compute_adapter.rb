@@ -1,5 +1,3 @@
-require 'google-cloud-compute'
-
 # rubocop:disable Rails/SkipsModelValidations, Metrics/ClassLength
 module ForemanGoogle
   class GoogleComputeAdapter

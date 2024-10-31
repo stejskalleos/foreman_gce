@@ -16,7 +16,13 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib,locale,webpack}/**/*'] + ['LICENSE', 'Rakefile', 'README.md', 'package.json']
   s.test_files = Dir['test/**/*'] + Dir['webpack/**/__tests__/*.js']
 
-  s.add_dependency 'google-apis-compute_v1', '~> 0.14'
-  s.add_dependency 'google-cloud-compute', '~> 0.2'
+  # Pin Google versions to avoid breaking changes
+  # Never versions with google-protobuf > 3.25.4
+  # are failing with `undefined method 'build'` error
+  s.add_dependency 'google-apis-compute_v1', '0.54.0'
+  s.add_dependency 'google-cloud-compute', '0.5.0'
+  s.add_dependency 'google-protobuf', '3.24.3'
+
   s.add_development_dependency 'rdoc'
+  s.add_development_dependency 'theforeman-rubocop', '~> 0.1.1'
 end
