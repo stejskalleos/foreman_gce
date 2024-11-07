@@ -1,5 +1,4 @@
 require 'test_google_helper'
-require 'foreman_google/google_compute_adapter'
 
 require 'google/cloud/compute/v1/zones/credentials'
 module ForemanGoogle
